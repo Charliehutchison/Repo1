@@ -1,0 +1,10 @@
+Account number
+Credit Card
+Social Security
+Password
+Confidential
+Company policy
+Financial Adivce
+Medical Information
+Legal Advice
+ 
