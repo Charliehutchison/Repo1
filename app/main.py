@@ -1,9 +1,11 @@
-import sensitive_terms.txt as sensitive_terms
+def load_sensitive_terms(file_path):
+    with open("../data/sensitive_terms.txt", "r") as f:
+        sensitive_terms = f.read().splitlines()
+    return sensitive_terms
+terms = load_sensitive_terms("../data/sensitive_terms.txt")
+print(terms)
 
-with open("data/sensitive_terms.txt", "r") as f:
-    sensitive_terms = f.read().splitlines()
-    print(sensitive_terms)
-
+print("This is a test to practice version control")
 
 
 
